@@ -1,3 +1,10 @@
 !*.exe
 !*.lib
 game/BUILD/
+game/gfx/0xor1.d
+game/gfx/chrrom_bank0.d
+game/gfx/chrrom_bank1.d
+game/gfx/chrrom_bank2.d
+game/MUSIC/songs.s
+game/MUSIC/sounds.s
+game/0xor1.chr

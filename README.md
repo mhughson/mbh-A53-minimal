@@ -39,3 +39,6 @@ I recommend that you associate ".nes" files with your prefered emulator. This wi
 4. You can add addtional banks of CHR in [compile_master.bat](game/compile_master.bat).
 5. Code is also spread across multiple banks named [game/PRG0.c](PRG0.c), PRG1.c, ...
 6. [game/main.c](main.c) is the fixed bank.
+7. Building graphics will generate a new CHR file, "0xor1.chr". This is a delta between CHR0 and CHR1 used to compress mostly duplicate CHR. If not needed remove from [compile_master.bat].
+8. This project includes music from Witch n' Wiz as a placeholder.
+9. This project includes bits and pieces of the map and metatile format from Witch n' Wiz. It can be stripped out as needed. 

@@ -8,6 +8,9 @@
         "title_screen.h": "c",
         "pico_credits_screen.h": "c",
         "stdlib.h": "c",
-        "bank_helpers.h": "c"
+        "bank_helpers.h": "c",
+        "nesdoug.h": "c",
+        "neslib.h": "c",
+        "NESLIB.H": "cpp"
     }
 }

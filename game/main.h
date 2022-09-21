@@ -25,11 +25,16 @@
 
 
 #pragma bss-name(push, "ZEROPAGE")
+
+extern unsigned char tick_count;
+extern unsigned char pads;
+extern unsigned char pads_new;
+
+extern unsigned char px;
+extern unsigned char py;
+
 #pragma bss-name(pop)
 
 // TODO: Where is non-zero page? Is this just starting at zero page?
-
-
-extern unsigned char tick_count;
 
 #endif // ONCE_MAIN_H

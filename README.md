@@ -1,15 +1,13 @@
-# Minial Action 53 Project
+# Minial Action 53/Mapper 28 Project
 This project is a very minimal project compatible with the annual nesdev competition. It is a stripped down version of the Witch n' Wiz Action 53 project released earlier this year (https://github.com/mhughson/mbh-A53-witchnwiz).
 
 My goal is to provide this as a starting point for other NESDev coding works in C, who want to make a nesdev compeition entry requiring Mapper 28 compatibility.
 
 However, targetting Mapper 0 (NROM) is *by far* the simplest approach if you are new to NES development. The downside is you will be limited in terms of ROM size.
 
-(insert screenshot)
-
 For the NESDev Competition, entries must be compatible with the [Action 53 Mapper (Mapper 28)](https://www.nesdev.org/wiki/Action_53_mapper), which may not be straight forward depending on you technical backround. Witch n' Wiz was targetting Mapper 1 (MMC1) prior to the competition, and the transition was not straight forward for me. My hope is that this project can be a starting point for others wanting to create NES games in C for the compo.
 
-# Credits (beyond actual game credits)
+# Credits
 
 * Shiru (neslib, famitone)
 * nesdoug (nesdoug library)

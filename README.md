@@ -5,6 +5,8 @@ My goal is to provide this as a starting point for other NESDev coding works in 
 
 However, targetting Mapper 0 (NROM) is *by far* the simplest approach if you are new to NES development. The downside is you will be limited in terms of ROM size.
 
+![nesmin_metasprite2](https://user-images.githubusercontent.com/310185/191657203-b335de3f-1a18-46a9-a41c-03f5d8d3f5aa.gif)
+
 For the NESDev Competition, entries must be compatible with the [Action 53 Mapper (Mapper 28)](https://www.nesdev.org/wiki/Action_53_mapper), which may not be straight forward depending on you technical backround. Witch n' Wiz was targetting Mapper 1 (MMC1) prior to the competition, and the transition was not straight forward for me. My hope is that this project can be a starting point for others wanting to create NES games in C for the compo.
 
 # Credits

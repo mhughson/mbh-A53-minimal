@@ -23,9 +23,21 @@
 #define PROF_B 0x9f // blue + grey
 #define PROF_W 0x1f // white + grey
 
+#define ROOM_WIDTH_PAGES (1)
+#define ROOM_WIDTH_PIXELS (256*ROOM_WIDTH_PAGES)
+#define ROOM_WIDTH_TILES (16*ROOM_WIDTH_PAGES)
+#define GRID_XY_TO_ROOM_INDEX(x,y) (((y) * ROOM_WIDTH_TILES) + (x))
+
+#define META_TILE_NUM_BYTES (6)
+
 
 #pragma bss-name(push, "ZEROPAGE")
 
+extern unsigned char i;
+extern unsigned char index;
+extern unsigned int index16;
+extern unsigned char x;
+extern unsigned char y;
 extern unsigned char tick_count;
 extern unsigned char pads;
 extern unsigned char pads_new;

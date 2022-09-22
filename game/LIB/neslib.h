@@ -322,6 +322,7 @@ void __fastcall__ delay(unsigned char frames);
 #define NTADR_B(x,y) 	(NAMETABLE_B|(((y)<<5)|(x)))
 #define NTADR_C(x,y) 	(NAMETABLE_C|(((y)<<5)|(x)))
 #define NTADR_D(x,y) 	(NAMETABLE_D|(((y)<<5)|(x)))
+#define NTADR(nt,x,y) 	((nt)|(((y)<<5)|(x)))
 
 //macro to get MSB and LSB
 

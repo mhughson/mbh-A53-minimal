@@ -1,4 +1,4 @@
-# Minial Action 53/Mapper 28 Project
+# Minimal Action 53/Mapper 28 Project
 This project is a very minimal project compatible with the annual nesdev competition. It is a stripped down version of the Witch n' Wiz Action 53 project released earlier this year (https://github.com/mhughson/mbh-A53-witchnwiz).
 
 My goal is to provide this as a starting point for other C developers, who want to make a nesdev compeition entry requiring Mapper 28 compatibility.
